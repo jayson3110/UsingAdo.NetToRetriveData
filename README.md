@@ -3,7 +3,7 @@
 Another way to retrive data in ado.net
 
 
-{
+
     public class HomeController : Controller
     {
         SqlConnection con = new SqlConnection("data source=JAYSON\\SQLEXPRESS; database=AOMG; integrated security=SSPI");
@@ -50,4 +50,4 @@ Another way to retrive data in ado.net
 
     }
 
-}
+
